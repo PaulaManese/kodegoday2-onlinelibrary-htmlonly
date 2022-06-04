@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Paula Manese | Exercise 2 | Online Library
+    </title>
+
+</head>
+<body>
+
+     <!-----------------Header------------------------>
+    <h1>Check out form</h1>
+
+
+
+    <!-----------------Form--------------------------->
+    <form>
+         <table>
+              <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" name="name" placeholder="Please enter your name" size="50" required>
+                    </td>
+              </tr>
+              <tr>
+                    <td>
+                        <label for="address">Address:</label>
+                    </td>
+                    <td>
+                            <input type="text" id="address" name="address" placeholder="Please enter your address" size="50" required>
+                    </td>
+              </tr>
+              <tr>
+                    <td>
+                        <label for="Region">Region:</label>
+                    </td>
+                    <td>
+                        <select id="region" name="region" required>
+                            <option value="ncr">NCR</option>
+                            <option value="regone">Region 1</option>
+                            <option value="regtwo">Region 2</option>
+                            <option value="regthree">Region 3</option>
+                            <option value="regfour">Region 4</option>
+                            <option value="regfive">Region 5</option>
+                        </select>
+                    </td>
+              </tr>
+    
+              <tr>
+                    <td>
+                        <label for="contact">Contact Number:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="number" name="number" placeholder="Please enter you contact details" size="50" required>
+                    </td>
+            </tr>
+
+            <tr>
+                    <td>
+                        Payment Method:
+                    </td>
+
+                    <td>
+                    <input type="radio" id="cod" name="pmtmethod" value="cod">
+                    <label for="cod">Cash on Delivery</label><br>
+                    </td>
+            </tr>
+
+
+            <tr>
+                <td></td>
+                    <td>
+                    <input type="radio" id="mcard" name="pmtmethod" value="mcard">
+                    <label for="mcard">Master Card</label><br>
+                    </td>
+        
+            <tr>
+                <td></td>
+                    <td>
+                    <input type="radio" id="visa" name="pmtmethod" value="visa">
+                    <label for="visa">Visa</label><br>
+                    </td>
+            </tr>          
+
+            <tr>
+                <td></td>
+                    <td>
+                    <input type="radio" id="amex" name="pmtmethod" value="amex">
+                    <label for="amex">American Express</label><br>
+                    </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                    <td>
+                    <button type="submit" value="submit">Place Order</button>
+                    </td>
+            </tr>
+
+            
+       </table>
+   </form>
+    
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Paula Manese | Exercise 2 | Online Library
+    </title>
+
+</head>
+<body>
+    
+    <!-----------------Header------------------------>
+    <h1>Online Library</h1>
+
+     <!--Optional! td align center (only applies to text inputs)-->
+
+     <!-- <style>
+
+    td {
+        text-align: center;
+      }
+
+    </style>-->
+
+    <!-----------------Form-------------------------->
+<form action="/day2exercise1.html">
+    <table border="0">
+        <tr>
+            <td>
+                <input type="text" id="search" name="search" href="#" placeholder="Enter Book, Title, Author, etc." size="120"><br>
+            </td>   
+            <td>
+                <select id="filter" name="filter" placeholder="filter">
+                    <option value="filter">filter</option>
+                    <option value="filter">Book Title</option>
+                    <option value="filter">Author</option>
+                    <option value="filter">Date Published</option>
+               </select>
+            </td>
+            <td>
+                <button type="search" value="search">SEARCH</button>
+                <br>
+            </td>
+        </tr>
+   </table>
+
+   <br>
+   <br>
+
+
+        <!----------Book Menu----------------------->
+        <table>
+            <tr>
+              <th>Book Cover</th>
+              <th>Book Titile</th>
+              <th>Author</th>
+              <th>Date Published</th>
+              <th colspan="20">Action</th>
+            </tr>
+
+            <tr>
+              <td> <input type="image" src="/img/image1.jpg" alt="bookcover" name="mockingbird" id="bookcover" width="200" height="240"></td>
+              <td>To Kill A Mockingbird</td>
+              <td>Harper Lee</td>
+              <td>July 11, 1960</td>
+              <td>
+                <button type="submit" value="submit">Add to Cart</button>
+                <button>Add to Wishlist</button>
+                <button type="submit" value="submit">Buy Now</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td> <input type="image" src="/img/image2.jpg" alt="bookcover" name="gatsby" id="bookcover" width="200" height="240"></td>
+              <td>The Great Gatsby</td>
+              <td>F. Scott Fritzgerald</td>
+              <td>April 10, 1925</td>
+              <td>
+                <button type="submit" value="submit">Add to Cart</button>
+                <button>Add to Wishlist</button>
+                <button type="submit" value="submit">Buy Now</button>
+            </td>
+            </tr>
+
+            <tr>
+               <td> <input type="image" src="/img/image3.jpg" alt="bookcover" name="nineteen" id="bookcover" width="200" height="240"></td>
+              <td>Nineteen Eighty-Four</td>
+              <td>George Orwell</td>
+              <td>June 8, 1949</td>
+              <td>
+              <button type="submit" value="submit">Add to Cart</button>
+              <button>Add to Wishlist</button>
+              <button type="submit" value="submit">Buy Now</button>
+            </td>
+            </tr>    
+
+            <tr>
+                <td> <input type="image" src="/img/image4.jpg" alt="bookcover" name="huckleberry" id="bookcover" width="200" height="240"></td>
+                <td>Adventures of Huckleberry Finn</td>
+                <td>Mark Twain</td>
+                <td>1884</td>
+                <td>
+                <button type="submit" value="submit">Add to Cart</button>
+                <button>Add to Wishlist</button>
+                <button type="submit" value="submit">Buy Now</button>
+                </td>
+            </tr>
+
+            <tr>
+            <td>
+                <button type="submit" value="submit">Submit</button>
+            </td>
+            </tr>
+
+          </table>  
+        </form>
+
+</body>
+</html>
